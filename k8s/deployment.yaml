@@ -5,7 +5,7 @@ metadata:
   labels:                                                                 
     app: arash-argocd-demo                                                       
 spec:                                                                     
-  replicas: 2                                                             
+  replicas: 4                                                            
   selector:                                                               
     matchLabels:                                                          
       app: arash-argocd-demo                                                     
