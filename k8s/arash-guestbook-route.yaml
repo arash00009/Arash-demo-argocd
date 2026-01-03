@@ -1,11 +1,11 @@
 apiVersion: route.openshift.io/v1                                         
 kind: Route                                                               
 metadata:                                                                 
-  name: arash-nginx-demo                                                        
+  name: arash-nginx-guestbook                                                        
   labels:                                                                 
-    app: arash-nginx-demo                                                       
+    app: arash-nginx-guestbook                                                       
 spec:                                                                     
   to:                                                                     
     kind: Service                                                         
-    name: arash-nginx-demo                                                      
+    name: arash-nginx-guestbook                                                      
     weight: 100
